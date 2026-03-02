@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1f3b58;
+  --color-secondary: #c9a86a;
+  --color-bgLight: #f4f1eb;
+  --font-tajawal: 'Tajawal', sans-serif;
+}
+
+/* Custom Scrollbar */
+.slide::-webkit-scrollbar {
+  width: 6px;
+}
+
+.slide::-webkit-scrollbar-thumb {
+  background-color: #c9a86a;
+  border-radius: 10px;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
